@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+main {
+  height: 90vh;
+}
+.Calculator-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.Calculator-Table > tr > td {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.Content-wrapper {
+  width: 600px;
+  margin: auto;
+  padding: 32px;
+}
+
+.Theme-wrapper {
+  margin: 32px 0;
+  cursor: pointer;
+}
+
+.Theme-wrapper > button {
+  padding: 8px 16px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  font-size: 20px;
+  padding: 8px 0px;
+  outline: solid 2px #0f2935;
+  min-width: 110px;
+  cursor: pointer;
+}
+
+.Output-wrapper {
+  outline: solid 2px #0f2935;
+  margin: 2px;
+  margin-bottom: 0;
+  height: 50px;
+  text-align: right;
+}
+
+.Output-wrapper > h2 {
+  padding: 8px 16px 8px 0;
+  margin: 0;
+  font-weight: 500;
+  color: #006da4;
+}
+
+.Dark-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+.Dark-theme > tr > td {
+  background-color: #666;
+  color: #fff;
+}
+
+.Dark-theme > h2 {
+  background-color: #666;
+  color: #fff;
+  outline: none;
+}
